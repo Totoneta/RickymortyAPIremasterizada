@@ -1,0 +1,44 @@
+.navbarcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7rem;
+    height: 5rem;
+    background-color: #F5F5F5;
+}
+
+/* Imagen izquierda */
+.navbarizq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarizq>a>img{
+    max-height: 4.8rem;
+}
+
+/* Navegación derecha */
+.navbarder{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+.navbarder>li {
+    transition: all .3s;
+}
+.navbarder>li>a {
+    color: #00a100;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Oswald';
+    transition: all .3s;
+}
+.navbarder>li:hover {
+    scale: 110%;
+}
+.navbarder>li>a:hover {
+    color: #00da00;
+}
