@@ -10,6 +10,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" Component={IndexPage} />
+        <Route path="/episodios" Component={IndexPage} />
+        <Route path="/personajes" Component={IndexPage} />
       </Routes>
     </BrowserRouter>
   );

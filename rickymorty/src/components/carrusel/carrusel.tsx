@@ -6,7 +6,7 @@ function Carrusel() {
   const [carruselindex, setCarruselIndex] = useState<number>(0);
 
   //Para cambiar imgs, solo cambiar el nombre de las mismas y colocarlas en public
-  const imgs: string[] = ["rickymortyportal.webp", "rickpaisajenocturno.webp", "rick.png", "rickymortyespacio.webp"];
+  const imgs: string[] = ["rickymortyportal.webp", "rickpaisajenocturno.webp", "rickymortyespacio.jpg", "rickpaisajenocturno.webp"];
   const length = imgs.length;
 
   //Movimiento de carrusel derecha e izquierda

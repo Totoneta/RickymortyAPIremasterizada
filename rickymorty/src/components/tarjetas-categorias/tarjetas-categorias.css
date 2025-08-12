@@ -1,0 +1,50 @@
+.tarjetascategoriacontainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #003b00;
+}
+
+.tarjetascategoriacontainer>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tarjetascategoriaepisodioscontainer,
+.tarjetascategoriapersonajescontainer {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+    transition: all .6s;
+    border: 3px solid #00a100;
+    border-radius: 10px;
+}
+
+.tarjetascategoriaepisodioscontainer {
+    background-image: url('/public/rickpaisajenocturno.jpg');
+}
+
+.tarjetascategoriapersonajescontainer {
+    background-image: url('/public/rickymortyportal.webp');
+}
+
+.tarjetascategoriaepisodioscontainer:hover,
+.tarjetascategoriapersonajescontainer:hover {
+    background-color: #000000;
+    background-image: none;
+    font-size: 40px;
+}
